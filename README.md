@@ -1,4 +1,8 @@
-# flutter_mapas_firebase
+# Flutter + Cloud Firestore
+Full app recipes
+
+The code up to here goes in 30% please do not execute it because it is not finished,
+can copy lines of code, to be up to date with the videos
 
 ![Codigo Alpha Flutter]
 
