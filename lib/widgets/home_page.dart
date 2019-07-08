@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recipes/auth/auth.dart';
+import 'package:recipes/widgets/food_body.dart';
+import 'package:recipes/widgets/foot_top.dart';
 
 
 class HomePageRecipes extends StatefulWidget {
@@ -42,7 +44,7 @@ class _HomePageRecipesState extends State<HomePageRecipes> {
           ),
           Align(
             alignment: Alignment.topCenter,
-            //child: FoodTop(),
+            child: FoodTop(),
           ),
           Align(
             alignment: Alignment.topCenter,
@@ -57,7 +59,7 @@ class _HomePageRecipesState extends State<HomePageRecipes> {
             ),
           ),
           Expanded(
-            //child: FoodBody(),
+            child: FoodBody(),
           ),          
         ],
       ),
