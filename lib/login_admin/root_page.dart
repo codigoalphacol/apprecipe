@@ -49,10 +49,10 @@ class _RootPageState extends State<RootPage> {
     //Aqui si esta logeado lo lleva a la App HomePage sino lo lleva a login mas registro
     switch (_authStatus) {
       case AuthStatus.notSignIn:
-      //return IntroScreen(auth: widget.auth,onSignIn: _signIn,);
+      return IntroScreen(auth: widget.auth,onSignIn: _signIn,);
       break;
       case AuthStatus.signIn:
-        //return HomePage( auth: widget.auth,onSignedOut: _signOut,);//menu_page.dart
+        return HomePage( auth: widget.auth,onSignedOut: _signOut,);//menu_page.dart
         break;
     }
 
