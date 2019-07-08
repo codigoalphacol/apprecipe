@@ -1,8 +1,5 @@
-// import 'package:recipes/pages/admin/mostrar_pagina.dart';
-// import 'package:recipes/pages/maps_page.dart';
-// import 'package:recipes/pages/myrecipes/mylist_myrecipe.dart';
-
- import 'package:recipes/widgets/home_page.dart';
+import 'package:recipes/pages/admin/show_recipe.dart';
+import 'package:recipes/widgets/home_page.dart';
 
 abstract class Content {
 
@@ -11,7 +8,7 @@ abstract class Content {
   // Future<InicioPage>  recetas(String id);
   // Future<MapsPage> mapa(); 
   // Future<ListMyrecipe> myrecipe(String id);
-  // Future<InicioPage> admin();
+   Future<InicioPage> admin();
 
  }
 
@@ -27,9 +24,9 @@ abstract class Content {
   // }
   
 
-  // Future<InicioPage> admin() async {
-  //   return InicioPage();
-  // }
+  Future<InicioPage> admin() async {
+    return InicioPage();
+  }
 
 
   // Future<InicioPage> recetas(String id ) async {
