@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:recipes/auth/auth.dart';
+import 'package:recipes/login_admin/menu_page.dart';
+import 'package:recipes/login_admin/sliders_page.dart';
 
 
 class RootPage extends StatefulWidget {
@@ -59,3 +61,4 @@ class _RootPageState extends State<RootPage> {
     return _widget;
   } 
   }
+
