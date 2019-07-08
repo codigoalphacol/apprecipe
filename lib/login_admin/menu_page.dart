@@ -114,13 +114,13 @@ class _HomePageState extends State<HomePage> {
                 ),   
                 ListTile(
                   onTap: () {
-                    // Navigator.of(context).pop();
-                    //  page.admin().then((value) {
-                    //   print(value);
-                    //   setState(() {
-                    //     contentPage = value;
-                    //   });
-                    // });
+                    Navigator.of(context).pop();
+                     page.admin().then((value) {
+                      print(value);
+                      setState(() {
+                        contentPage = value;
+                      });
+                    });
                   },
                   leading: Icon(Icons.contact_mail, color: Color(0xFF4FC3F7),),
                   title: Text('Admin', style: TextStyle(color: Color(0xFF4FC3F7)),),
