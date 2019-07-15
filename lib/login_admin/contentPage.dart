@@ -1,13 +1,14 @@
 import 'package:recipes/pages/admin/show_recipe.dart';
+import 'package:recipes/pages/myrecipes/list_my_recipe.dart';
 import 'package:recipes/widgets/home_page.dart';
 
 abstract class Content {
 
 
    Future<HomePageRecipes> lista(); 
+   Future<ListMyRecipe> myrecipe(String id);
   // Future<InicioPage>  recetas(String id);
   // Future<MapsPage> mapa(); 
-  // Future<ListMyrecipe> myrecipe(String id);
    Future<InicioPage> admin();
 
  }
@@ -34,9 +35,9 @@ abstract class Content {
   //   return InicioPage(id: id,);
   // }
 
-  // Future<ListMyrecipe> myrecipe(String id ) async {
-  //   print('listados mis recetas $id'); 
-  //   return ListMyrecipe(id: id,);
-  // }
+  Future<ListMyRecipe> myrecipe(String id ) async {
+    print('listados mis recetas $id'); 
+    return ListMyRecipe(id: id,);
+  }
 
  }
