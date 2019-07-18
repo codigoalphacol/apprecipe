@@ -1,8 +1,10 @@
 # Flutter + Cloud Firestore
 Full app recipes
 
-The code up to here goes in 30% please do not execute it because it is not finished,
-can copy lines of code, to be up to date with the videos
+The code up to here goes in 100% Full App 
+
+How to generate api key
+GUIA PARA CREAR API KEY GOOGLE MAPS SIN TARJETA DE CREDITO NI CUENTADE FACTURACION
 
 ![Codigo Alpha Flutter]
 
