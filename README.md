@@ -1,9 +1,12 @@
 # Flutter + Cloud Firestore
 Full app recipes
 
-The code up to here goes in 100% Full App 
+
+The code is 100% app recipes
+El código esta al 100% de recetas de la aplicación.
 
 How to generate api key
+https://github.com/codigoalphacol/apprecipe/blob/master/keyGooglemaps.pdf
 GUIA PARA CREAR API KEY GOOGLE MAPS SIN TARJETA DE CREDITO NI CUENTADE FACTURACION
 
 ![Codigo Alpha Flutter]
