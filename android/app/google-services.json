@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "449785386072",
+    "firebase_url": "https://appcompras-79f15.firebaseio.com",
+    "project_id": "appcompras-79f15",
+    "storage_bucket": "appcompras-79f15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449785386072:android:8b3c71f677d49045",
+        "android_client_info": {
+          "package_name": "com.compras.recipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449785386072-j6l58hgl9u6i98hb2d05b5ncipcgvvi4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.compras.recipes",
+            "certificate_hash": "44e863740ed6eb5cc35481651bfa815345f9baad"
+          }
+        },
+        {
+          "client_id": "449785386072-uv9dj4r30itg9ssmh1saspm9nkqemiv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnNbU_dnlnC4NajMtGmQRW7YaAwQef6yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449785386072-uv9dj4r30itg9ssmh1saspm9nkqemiv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
